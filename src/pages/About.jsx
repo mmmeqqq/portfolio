@@ -28,7 +28,7 @@ export default function About() {
       </div>
       <Skills />
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-3xl font-semibold mb-4">Let's work together.</h1>
+        <h1 className="text-3xl font-semibold mt-4">Let's work together.</h1>
         <p className="text-md font-normal text-gray-500 text-center py-4">
           to develop user experiences that resonate <br /> and create stunning designs.
         </p>
