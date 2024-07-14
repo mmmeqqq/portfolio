@@ -53,7 +53,11 @@
     },
     {
       "icon": "https://cdn-icons-png.flaticon.com/512/732/732190.png",
-      "skills-name": "CSS(tailwind)"
+      "skills-name": "CSS"
+    },
+    {
+      "icon": "https://scontent.fbkk12-3.fna.fbcdn.net/v/t39.30808-6/299463877_560030875914611_8025210373789510385_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHYBAd5ImaFFqXHCU7zhZz7XyjiulHN1tJfKOK6Uc3W0oLGGl0EdDu9z12bq981bHBWZiazFdHKGJM5p-lXK6Jh&_nc_ohc=WseY3eTGXu0Q7kNvgGj71uk&_nc_ht=scontent.fbkk12-3.fna&oh=00_AYDqkb1f3kdk3l5s1OuY-y9_GHGQJlJiFs51Wk7fIDt-iA&oe=6699EDB7",
+      "skills-name": "tailwind"
     },
     {
       "icon": "https://cdn-icons-png.flaticon.com/512/919/919851.png",
