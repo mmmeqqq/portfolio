@@ -24,7 +24,7 @@ export default function Profile() {
         </div>
       </div>
       <div className="px-7 py-7 flex flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3">
-        <div className="flex flex-col gap-y-2">
+        <div className="flex flex-col gap-y-2 items-center ">
           <h1 className="text-2xl md:text-4xl font-semibold text-center tracking-tighter">
             I'm {configData.name}
           </h1>
@@ -36,7 +36,7 @@ export default function Profile() {
           </div>
         </div>
         <div className="rounded-full p-2 flex items-center justify-center mb-7">
-          <div className="w-36 h-36 rounded-full bg-gradient-to-b from-gray-100 to-gray-300 border-2 flex items-center justify-center">
+          <div className="w-36 h-36 rounded-full bg-[#f5d6e8] flex items-center justify-center">
             <img src={profile} alt="" className="max-w-full max-h-full rounded-full " />
           </div>
         </div>

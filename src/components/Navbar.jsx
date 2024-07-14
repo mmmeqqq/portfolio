@@ -8,7 +8,7 @@ export default function Navbar() {
     <>
       <header className="py-2 px-2 fixed top-0 left-0 w-full z-40">
         <div className="mx-auto max-w-xl ">
-          <navbar className="backdrop-filter backdrop-blur-lg bg-[#f9cfe7] bg-opacity-120 rounded-xl flex items-center justify-between shadow-md">
+          <navbar className="backdrop-filter backdrop-blur-lg bg-white bg-opacity-40 rounded-xl flex items-center justify-between shadow-md">
             <div className="flex gap-x-3 px-5 py-2">
               <NavLink
                 to="/"
@@ -57,12 +57,12 @@ export default function Navbar() {
                   />
                 </svg>
               </NavLink>
+
             </div>
             <div className="justify-center">
               <a href={configData.hireMeLink}><button
                 type="button"
-                className="gap-x-1 before:ease relative overflow-hidden border border-[#000000] bg-[#050708] text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:before:-translate-x-40 font-medium rounded-lg text-sm px-2 py-2 text-center inline-flex items-center mx-7"
-              >
+                className="relative overflow-hidden border bg-[#f5d6e8] text-black shadow-2xl transition-all ease-in-out duration-300 font-medium rounded-lg text-sm px-4 py-2 text-center inline-flex items-center mx-7 before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-20 before:duration-300 hover:before:-translate-x-24 hover:before:bg-[#f5d6e8] hover:before:opacity-50 hover:bg-[#f5a6c2] hover:shadow-3xl"              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

@@ -16,6 +16,7 @@ function App() {
           <div className="flex flex-col">
             <div className="flex flex-col">
               <SiteRoutes />
+              <Footer/>
             </div>
           </div>
         </div>

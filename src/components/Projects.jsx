@@ -35,7 +35,7 @@ export default function Card() {
                 key={index}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
-                className="drop-shadow-md card bg-white rounded-lg px-5 py-3 gap-x-3 flex md:flex-row hover:-translate-y-1 hover:scale-100 duration-300 transition ease-in-out delay-150 hover:shadow-sm border border-gray-200 hover:border-gray-300"
+                className="drop-shadow-md card bg-white rounded-lg px-5 py-3 gap-x-3 flex md:flex-row hover:-translate-y-1 hover:scale-100 duration-300 transition ease-in-out delay-150 hover:shadow-sm border border-gray-200 hover:bg-[#f7d9ea]"
                 href={project["project-url"]}
               >
                 <div className="rounded-full overflow-hidden flex items-center justify-center border border-gray-200 md:block ">

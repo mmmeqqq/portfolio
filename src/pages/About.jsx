@@ -1,7 +1,7 @@
 import CopyEmailButton from "../components/CopyEmailButton";
-import Footer from "../components/Footer";
 import Social from "../components/Social";
 import { getConfigData } from "../data/configReader";
+import  ProfilePicture from "../assets/bew.jpg"
 
 export default function About() {
   const configData = getConfigData();
@@ -14,14 +14,14 @@ export default function About() {
         </h1>
       </div>
       <div className="px-7 py-7 flex flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3">
-        <div className="flex flex-col gap-y-4">
+        <div className="flex flex-col gap-y-4 ">
           <h1 className="text-3xl md:text-4xl font-semibold text-center ">
             {configData.name}
           </h1>
           <p className="text-base md:text-lg text-gray-500 md:text-justify font-normal tracking-tight">
             {configData.aboutDesc}
           </p>
-          <img className="border rounded-md p-3 shadow-md" src="/src/assets/bew.jpg" alt="profile picture" />
+          <img className="border rounded-lg p-3 bg-[#f5d6e8] shadow-md" src={ProfilePicture} alt="profile picture" />
         </div>
       </div>
       <div className="flex flex-col items-center justify-center">
@@ -35,8 +35,7 @@ export default function About() {
           <a href={configData.hireMeLink}>
             <button
               type="button"
-              className="gap-x-1 before:ease relative overflow-hidden border border-[#000000] bg-[#050708] text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:before:-translate-x-40 font-medium rounded-lg text-sm px-4 py-2 text-center inline-flex items-center"
-            >
+              className="relative overflow-hidden border bg-[#f5d6e8] text-black shadow-2xl transition-all ease-in-out duration-300 font-medium rounded-lg text-sm px-4 py-2 text-center inline-flex items-center before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-20 before:duration-300 hover:before:-translate-x-24 hover:before:bg-[#f5d6e8] hover:before:opacity-50 hover:bg-[#f5a6c2] hover:shadow-3xl"            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -58,7 +57,6 @@ export default function About() {
         </div>
         <Social />
       </div>
-      <Footer />
     </>
   );
 }
