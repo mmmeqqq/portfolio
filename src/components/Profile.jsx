@@ -1,4 +1,4 @@
-import profile from "../assets/profile.png";
+import profile from "../assets/meq.jpeg";
 import CopyEmailButton from "./CopyEmailButton";
 import { getConfigData } from "../data/configReader";
 
@@ -25,10 +25,10 @@ export default function Profile() {
       </div>
       <div className="px-7 py-7 flex flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3">
         <div className="flex flex-col gap-y-2">
-          <h1 className="text-4xl md:text-4xl font-semibold text-center tracking-tighter">
+          <h1 className="text-2xl md:text-4xl font-semibold text-center tracking-tighter">
             I'm {configData.name}
           </h1>
-          <p className="md:w-3/4 text-lg text-gray-500 text-center font-normal tracking-tigh">
+          <p className="md:w-3/4 text-gray-500 text-center font-normal tracking-tigh">
             {configData.desc}
           </p>
           <div className="flex items-center text-center md:text-justify justify-center pt-6">
@@ -37,7 +37,7 @@ export default function Profile() {
         </div>
         <div className="rounded-full p-2 flex items-center justify-center mb-7">
           <div className="w-36 h-36 rounded-full bg-gradient-to-b from-gray-100 to-gray-300 border-2 flex items-center justify-center">
-            <img src={profile} alt="" className="max-w-full max-h-full " />
+            <img src={profile} alt="" className="max-w-full max-h-full rounded-full " />
           </div>
         </div>
       </div>

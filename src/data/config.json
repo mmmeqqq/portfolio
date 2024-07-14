@@ -18,6 +18,12 @@
         "project-name": "Colmar Academy",
         "project-desc": "Learning to use Tailwind(css)",
         "project-url": "https://colmar-tailwind-six.vercel.app/"
+      },
+      {
+        "project-image-url": "https://cdn-icons-png.flaticon.com/512/3081/3081986.png",
+        "project-name": "Cart",
+        "project-desc": "A feature add products to a cart",
+        "project-url": "https://06-bew-js.vercel.app/"
       }
     ],
     "social": [

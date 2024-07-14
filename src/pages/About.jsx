@@ -1,5 +1,6 @@
-import profile from "../assets/profile.png";
 import CopyEmailButton from "../components/CopyEmailButton";
+import Footer from "../components/Footer";
+import Social from "../components/Social";
 import { getConfigData } from "../data/configReader";
 
 export default function About() {
@@ -14,28 +15,27 @@ export default function About() {
       </div>
       <div className="px-7 py-7 flex flex-col-reverse md:flex md:flex-row md:items-center md:justify-between pt-3">
         <div className="flex flex-col gap-y-4">
-          <h1 className="text-4xl md:text-4xl font-semibold text-center  tracking-tighter">
+          <h1 className="text-3xl md:text-4xl font-semibold text-center ">
             {configData.name}
           </h1>
-          <p className="text-lg text-gray-500 text-center md:text-justify font-normal tracking-tigh">
+          <p className="text-base md:text-lg text-gray-500 md:text-justify font-normal tracking-tight">
             {configData.aboutDesc}
           </p>
-          <img className="border rounded-md p-3 grayscale shadow-md" src="src/assets/source.png" alt="" />
+          <img className="border rounded-md p-3 shadow-md" src="/src/assets/bew.jpg" alt="profile picture" />
         </div>
       </div>
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-3xl font-semibold">Let's work together.</h1>
-        <p className="text-md font-normal text-gray-500 text-center px-3">
-          Creating user experience and visual appealing design
+        <h1 className="text-3xl font-semibold mb-4">Let's work together.</h1>
+        <p className="text-md font-normal text-gray-500 text-center py-4">
+          to develop user experiences that resonate <br /> and create stunning designs.
         </p>
       </div>
-      <div className="flex flex-col-reverse md:flex md:flex-row md:items-center justify-center py-8">
-        <div className="flex flex-col gap-y-2">
-
-          <div className="flex items-center text-center md:text-justify justify-center md:justify-normal">
-            <a href={configData.hireMeLink}><button
+      <div className="flex flex-col justify-center items-center ">
+        <div className="flex md:flex-row items-center gap-4 mb-2">
+          <a href={configData.hireMeLink}>
+            <button
               type="button"
-              className="gap-x-1 before:ease relative overflow-hidden border border-[#000000] bg-[#050708] text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:before:-translate-x-40 font-medium rounded-lg text-sm px-2 py-2 text-center inline-flex items-center mr-2 mb-2"
+              className="gap-x-1 before:ease relative overflow-hidden border border-[#000000] bg-[#050708] text-white shadow-2xl transition-all before:absolute before:right-0 before:top-0 before:h-12 before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-700 hover:before:-translate-x-40 font-medium rounded-lg text-sm px-4 py-2 text-center inline-flex items-center"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -52,11 +52,13 @@ export default function About() {
                 />
               </svg>
               Hire Me
-            </button></a>
-            <CopyEmailButton />
-          </div>
+            </button>
+          </a>
+          <CopyEmailButton />
         </div>
+        <Social />
       </div>
+      <Footer />
     </>
   );
 }

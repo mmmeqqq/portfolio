@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import { getConfigData } from "./data/configReader";
 import Social from "./components/Social";
 import Footer from "./components/Footer";
-import SiteRoutes from "./routes/SiteRoutes";
+import SiteRoutes from "./Router";
 
 function App() {
   const configData = getConfigData();
@@ -16,8 +16,6 @@ function App() {
           <div className="flex flex-col">
             <div className="flex flex-col">
               <SiteRoutes />
-              <Social />
-              <Footer />
             </div>
           </div>
         </div>
