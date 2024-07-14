@@ -1,0 +1,38 @@
+{
+    "job": "Software Developer",
+    "name": "Bussayakorn Sathitthammaporn",
+    "desc": "A fitness enthusiast who enjoys traveling and is passionate about coding🐣",
+    "aboutDesc": "I finished the Junior Software Developer Bootcamp with Generation Thailand and have five years of personal training experience. Now, I am passionate about coding and technology, always eager to learn more and ready for new challenges.",
+    "email": "bussayakorn.sat@gmail.comm",
+    "status": "on",
+    "hireMeLink": "https://drive.google.com/file/d/1IR5aYifFi4wKO3I6Solfe6hP9gzMN1kc/view?usp=drive_link",
+    "projects": [
+      {
+        "project-image-url": "https://eotd-front-end-ps1z.vercel.app/assets/logoGradient-X3oqC2Wy.png",
+        "project-name": "Puey Puey",
+        "project-desc": "E-commerce (Web Applocation)",
+        "project-url": "https://eotd-front-end-ps1z.vercel.app/"
+      },
+      {
+        "project-image-url": "https://colmar-tailwind-six.vercel.app/assets/images/ic-logo.svg",
+        "project-name": "Colmar Academy",
+        "project-desc": "Learning to use Tailwind(css)",
+        "project-url": "https://colmar-tailwind-six.vercel.app/"
+      }
+    ],
+    "social": [
+      {
+        "icon": "FaInstagram",
+        "link": "https://www.instagram.com/bussayabew"
+      },
+      {
+        "icon": "FaGithub",
+        "link": "https://github.com/mmmeqqq"
+      },
+      {
+        "icon": "FaLinkedinIn",
+        "link": "https://www.linkedin.com/in/bussayakorn"
+      }
+    ]
+  }
+  

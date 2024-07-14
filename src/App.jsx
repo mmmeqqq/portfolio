@@ -1,35 +1,29 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Navbar from "./components/Navbar";
+import { getConfigData } from "./data/configReader";
+import Social from "./components/Social";
+import Footer from "./components/Footer";
+import SiteRoutes from "./routes/SiteRoutes";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const configData = getConfigData();
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <Navbar />
+      <div className="pt-[5rem] px-2 py-2">
+        <div className="mx-auto max-w-xl bg-white rounded-xl shadow-lg">
+          <div className="flex flex-col">
+            <div className="flex flex-col">
+              <SiteRoutes />
+              <Social />
+              <Footer />
+            </div>
+          </div>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
