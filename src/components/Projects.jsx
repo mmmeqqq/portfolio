@@ -39,14 +39,14 @@ export default function Card() {
                 href={project["project-url"]}
               >
                 <div className="rounded-full overflow-hidden flex items-center justify-center border border-gray-200 md:block ">
-                  <div className="card-image md:w-16  md:h-16 w-14 h-14 rounded-full overflow-hidden">
+                  <div className=" md:w-16  md:h-16 w-14 h-14 rounded-full overflow-hidden">
                     <img
-                      className="w-full h-full object-cover"
+                      className="w-full h-full"
                       src={project["project-image-url"]}
                     />
                   </div>
                 </div>
-                <div className="flex flex-col justify-center">
+                <div className="self-center">
                   <h1 className="font-medium text-lg">
                     {project["project-name"]}
                   </h1>

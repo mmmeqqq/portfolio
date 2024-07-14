@@ -24,6 +24,12 @@
         "project-name": "Cart",
         "project-desc": "A feature add products to a cart",
         "project-url": "https://06-bew-js.vercel.app/"
+      },
+      {
+        "project-image-url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png",
+        "project-name": "User table",
+        "project-desc": "A feature add user",
+        "project-url": "https://06-bew-js.vercel.app/"
       }
     ],
     "social": [
@@ -39,6 +45,43 @@
         "icon": "FaLinkedinIn",
         "link": "https://www.linkedin.com/in/bussayakorn"
       }
-    ]
+    ],
+    "skills": [
+    {
+      "icon": "https://cdn-icons-png.flaticon.com/512/732/732212.png",
+      "skills-name": "HTML"
+    },
+    {
+      "icon": "https://cdn-icons-png.flaticon.com/512/732/732190.png",
+      "skills-name": "CSS(tailwind)"
+    },
+    {
+      "icon": "https://cdn-icons-png.flaticon.com/512/919/919851.png",
+      "skills-name": "React.js"
+    },
+    {
+      "icon": "https://cdn-icons-png.flaticon.com/512/919/919825.png",
+      "skills-name": "Node.js"
+    },
+    {
+      "icon": "https://cdn-icons-png.flaticon.com/512/919/919836.png",
+      "skills-name": "SQLite"
+    },
+    {
+      "icon": "https://cdn-icons-png.flaticon.com/512/1051/1051275.png",
+      "skills-name": "Git"
+    },
+    {
+      "icon": "https://cdn-icons-png.flaticon.com/512/919/919828.png",
+      "skills-name": "JavaScript"
+    },
+    {
+      "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
+      "skills-name": "Figma"
+    },
+    {
+      "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
+      "skills-name": "Figma"
+    }
+  ]
   }
-  
