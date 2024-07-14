@@ -64,6 +64,10 @@
       "skills-name": "Node.js"
     },
     {
+      "icon": "https://scontent.fbkk12-3.fna.fbcdn.net/v/t39.30808-6/246656344_10165689418720557_4225476852778908330_n.png?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeF5wuMvTsWPEPeZm3VsKEtG2OvgiaL_1mrY6-CJov_WanSmmazvoFVDkS0UPwVzt8MeSPs8wjy6oeFBP0X9GXfC&_nc_ohc=gcxwZJ3Z8kEQ7kNvgFZuWZ7&_nc_ht=scontent.fbkk12-3.fna&oh=00_AYDrfmdvZD98a40amvUXEko28cHQ1x80LvGkwG1KM0LC5w&oe=6699D75D",
+      "skills-name": "mongoDB"
+    },
+    {
       "icon": "https://cdn-icons-png.flaticon.com/512/919/919836.png",
       "skills-name": "SQLite"
     },
@@ -80,8 +84,8 @@
       "skills-name": "Figma"
     },
     {
-      "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
-      "skills-name": "Figma"
+      "icon": "https://cdn-icons-png.flaticon.com/512/2111/2111656.png",
+      "skills-name": "trello"
     }
   ]
   }
