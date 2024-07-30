@@ -5,7 +5,7 @@
     "aboutDesc": "I finished the Junior Software Developer Bootcamp with Generation Thailand and have five years of personal training experience. Now, I am passionate about coding and technology, always eager to learn more and ready for new challenges.",
     "email": "bussayakorn.sat@gmail.comm",
     "status": "on",
-    "hireMeLink": "https://drive.google.com/file/d/1IR5aYifFi4wKO3I6Solfe6hP9gzMN1kc/view?usp=drive_link",
+    "hireMeLink": "https://drive.google.com/file/d/1xNnu6LpP6dUkGiGS31rcIvYDJEl6IfWh/view?usp=drive_link",
     "projects": [
       {
         "project-image-url": "https://eotd-front-end-ps1z.vercel.app/assets/logoGradient-X3oqC2Wy.png",
@@ -29,7 +29,7 @@
         "project-image-url": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png",
         "project-name": "User table",
         "project-desc": "A feature add user",
-        "project-url": "https://06-bew-js.vercel.app/"
+        "project-url": "https://06-bew-react.vercel.app/"
       }
     ],
     "social": [
