@@ -8,6 +8,12 @@
     "hireMeLink": "https://drive.google.com/file/d/154u_S10XSJoLTI-Ho0NKfT0b5_2J6vOh/view?usp=drive_link",
     "projects": [
       {
+        "project-image-url": "https://u7.uidownload.com/vector/353/336/vector-crypto-currency-golden-coin-of-bitcoin-vector-ai-eps.jpg",
+        "project-name": "MyCoin System",
+        "project-desc": "A prototype of feature mycoin system",
+        "project-url": "https://www.figma.com/proto/39xv6vhxfTvJ6JTKVfRJEk/Myorder?node-id=145-3367&starting-point-node-id=82%3A4573"
+      },
+      {
         "project-image-url": "https://eotd-front-end-ps1z.vercel.app/assets/logoGradient-X3oqC2Wy.png",
         "project-name": "Puey Puey",
         "project-desc": "E-commerce (Web Applocation)",
